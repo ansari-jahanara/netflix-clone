@@ -1,0 +1,1121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(./accest/netflix-img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main nav {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main nav h1 {
+    color: #E50914;
+    font-size: 50px;
+    margin-left: 50px;
+
+}
+
+.main .nav-btns {
+    display: flex;
+
+}
+
+.main .nav-btns .btn-1 {
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    border: 2px solid lightgrey;
+}
+
+.main .nav-btns .btn-2 {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    margin-right: 100px;
+    border: none;
+
+}
+
+/* hero */
+
+.main .hero {
+    height: 70%;
+    width: 100%;
+
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Email button */
+
+.email {
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.email input {
+    padding: 23px 300px 23px 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 75%;
+    background: #f1f1f1;
+}
+
+.email button {
+    float: left;
+    width: 25%;
+    padding: 23px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+
+/* tv-section */
+
+.tv-section-1 {
+
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.tv-section-1 .tv-section-content {
+
+    width: 40%;
+    padding: 0 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.tv-section-1 .tv-section-content h1 {
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+
+.tv-section-1 .tv-section-content h5 {
+    font-size: 20px;
+}
+
+.tv-section-1 .tv-section-img {
+
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 80vh;
+    width: 48%;
+
+
+}
+
+.tv-section-1 .tv-section-img .tv-section-img-container {
+    /* margin: -10% -5% -5% 0; */
+    /* overflow: hidden; */
+    position: relative;
+
+}
+
+.tv-section-1 .tv-section-img .tv-img {
+    position: relative;
+    z-index: 2;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.tv-section-1 .tv-section-img .tv-section-video {
+
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.tv-section-1 .tv-section-img .tv-video {
+
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}
+
+
+/* download-section */
+
+.download-section {
+    height: 70vh;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-section .download-section-content {
+    height: 80%;
+    width: 40%;
+    color: white;
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.download-section .download-section-content h1 {
+    font-size: 40px;
+
+}
+
+.download-section .download-section-content h5 {
+    font-size: 25px;
+}
+
+.download-section .download-section-img {
+    height: 80%;
+    width: 40%;
+    background-image: url(./accest/mobile-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.download-section .download-section-img .download-section-img-box {
+    height: 30%;
+    width: 70%;
+    margin-top: 200px;
+    border: 2px solid rgb(211, 211, 211, 0.3);
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.download-section .download-section-img .download-section-img-box img:nth-child(1) {
+    height: 80%;
+}
+
+.download-section .download-section-img .download-section-img-box img:nth-child(3) {
+    height: 60%;
+}
+
+.download-section .download-section-img .download-section-img-box p {
+    margin-right: 120px;
+    font-size: 14px;
+}
+
+
+/* Watch-section */
+
+.watch-section-1 {
+
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.watch-section-1 .watch-section-content {
+
+    width: 40%;
+    padding: 0 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.watch-section-1 .watch-section-content h1 {
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+
+.watch-section-1 .watch-section-content h5 {
+    font-size: 20px;
+}
+
+.watch-section-1 .watch-section-img {
+
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 80vh;
+    width: 48%;
+
+
+}
+
+.watch-section-1 .watch-section-img .watch-section-img-container {
+    /* margin: -10% -5% -5% 0; */
+    /* overflow: hidden; */
+    position: relative;
+
+}
+
+.watch-section-1 .watch-section-img .watch-img {
+    position: relative;
+    z-index: 2;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.watch-section-1 .watch-section-img .watch-section-video {
+
+    height: 100%;
+    left: 50%;
+    max-height: 45%;
+    max-width: 62%;
+    position: absolute;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.watch-section-1 .watch-section-img .watch-video {
+
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}
+
+
+/* profle-section */
+
+.profile-section {
+    height: 80vh;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile-section .profile-section-content {
+    height: 80%;
+    width: 40%;
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.profile-section .profile-section-content h1 {
+    font-size: 50px;
+
+}
+
+.profile-section .profile-section-content h5 {
+    font-size: 25px;
+}
+
+.profile-section .profile-section-img {
+    height: 80%;
+    width: 40%;
+
+    background-image: url(./accest/create-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* FAQ */
+
+.FAQ {
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.FAQ .box {
+
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.FAQ .box .FAQ-span{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.FAQ .box .FAQ-span .FAQ-button {
+    border: 0;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;    
+    padding: 20px 0 20px 30px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    background-color: #303030;
+}
+.FAQ .box .FAQ-span .FAQ-button-drop-down-content {
+    
+   padding: 0 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;      
+    text-align: left;    
+    width: 100%;
+    background-color: #303030;
+}
+
+
+
+.FAQ .box .FAQ-span .FAQ-button .FAQ-icon {
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
+.FAQ h1 {
+    font-size: 45px;
+    color: white;
+    padding: 50px 0 30px 0;
+}
+
+.FAQ p {
+    color: white;
+    padding: 50px 0 10px 0;
+}
+
+.FAQ .email {
+    margin: 0 0 50px 0;
+}
+
+
+
+/*  Footer  */
+
+footer {
+
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer .footer-content {
+
+
+    font-size: 14px;
+    padding: 20px 0;
+    color: #737373;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+footer .footer-content .footer-links {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+footer .footer-content .footer-links a {
+    color: #737373;
+
+}
+
+footer .footer-content p:nth-child(3) {
+    height: 40px;
+    width: 120px;
+    border: 1px solid #737373;
+    color: #737373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-content p:nth-child(3) span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer .footer-content p:nth-child(4) {
+    padding: 20px 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main nav h1 {
+        color: #E50914;
+        font-size: 30px;
+        margin-left: 10px;
+
+    }
+
+    .main .nav-btns .btn-1 {
+        padding: 5px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 20px;
+        border: 2px solid lightgrey;
+    }
+
+    .main .nav-btns .btn-2 {
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        margin-right: 20px;
+        border: none;
+
+    }
+
+    .main .hero {
+        height: 50%;
+        width: 100%;
+        margin: auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .main .hero h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+    /* tv-section */
+
+    .tv-section-1 {
+
+        background-color: black;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+    }
+
+    .tv-section-1 .tv-section-content {
+
+        width: 100%;
+        padding: 0 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+
+    .tv-section-1 .tv-section-content h1 {
+        font-size: 30px;
+        padding: 20px 0;
+
+    }
+
+    .tv-section-1 .tv-section-content h5 {
+        font-size: 20px;
+    }
+
+
+
+    .tv-section-1 .tv-section-img {
+
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 1 auto;
+        height: 65vh;
+        width: 96%;
+
+
+    }
+
+    .tv-section-1 .tv-section-img .tv-section-img-container {
+        /* margin: -10% -5% -5% 0; */
+        /* overflow: hidden; */
+        position: relative;
+
+    }
+
+
+    .tv-section-1 .tv-section-img .tv-img {
+        position: relative;
+        z-index: 2;
+        border: 0;
+        height: auto;
+        max-width: 100%;
+
+    }
+
+
+
+    .tv-section-1 .tv-section-img .tv-section-video {
+
+        height: 100%;
+        left: 50%;
+        max-height: 54%;
+        max-width: 73%;
+        position: absolute;
+        top: 34%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+    }
+
+    .tv-section-1 .tv-section-img .tv-video {
+
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        vertical-align: baseline;
+        object-fit: contain;
+    }
+
+
+
+    /* download-section */
+
+    .download-section {
+        height: 100vh;
+        background-color: black;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 50px 0;
+    }
+
+    .download-section .download-section-content {
+        height: 40%;
+        width: 100%;
+        color: white;
+        padding: 0 30px;
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+
+    .download-section .download-section-content h1 {
+        font-size: 30px;
+
+    }
+
+    .download-section .download-section-content h5 {
+        font-size: 20px;
+    }
+
+    .download-section .download-section-img {
+        height: 50%;
+        width: 100%;
+        background-image: url(./accest/mobile-img.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    /* tv-section */
+
+    .watch-section-1 {
+
+        background-color: black;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+    }
+
+    .watch-section-1 .watch-section-content {
+
+        width: 100%;
+        padding: 0 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+
+    .watch-section-1 .watch-section-content h1 {
+        font-size: 30px;
+        padding: 20px 0;
+
+    }
+
+    .watch-section-1 .watch-section-content h5 {
+        font-size: 20px;
+    }
+
+
+
+    .watch-section-1 .watch-section-img {
+
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 1 auto;
+        height: 60vh;
+        width: 96%;
+
+
+    }
+
+    .watch-section-1 .watch-section-img .watch-section-img-container {
+        /* margin: -10% -5% -5% 0; */
+        /* overflow: hidden; */
+        position: relative;
+
+    }
+
+
+    .watch-section-1 .watch-section-img .watch-img {
+        position: relative;
+        z-index: 2;
+        border: 0;
+        height: auto;
+        max-width: 100%;
+
+    }
+
+
+
+    .watch-section-1 .watch-section-img .watch-section-video {
+
+        height: 100%;
+        left: 50%;
+        max-height: 45%;
+        max-width: 62%;
+        position: absolute;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+    }
+
+    .watch-section-1 .watch-section-img .watch-video {
+
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        vertical-align: baseline;
+        object-fit: contain;
+    }
+
+
+    /* profle-section */
+
+    .profile-section {
+        height: 120vh;
+        background-color: black;
+        margin-top: 10px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .profile-section .profile-section-content {
+        height: 50%;
+        width: 100%;
+        color: white;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .profile-section .profile-section-content h1 {
+        font-size: 30px;
+
+    }
+
+    .profile-section .profile-section-content h5 {
+        font-size: 20px;
+    }
+
+    .profile-section .profile-section-img {
+        height: 50%;
+        width: 100%;
+        background-image: url(./accest/create-img.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+
+    .FAQ .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .FAQ .box .FAQ-span .FAQ-button {
+        border: 0;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+        font-weight: 400;        
+        padding: 20px 0 20px 20px;
+        text-align: left;
+        position: relative;
+        width: 100%;
+        background-color: #303030;
+    }
+
+    .FAQ .box .FAQ-span .FAQ-button-drop-down-content {
+    
+        padding: 0 20px;
+         font-size: 16px;
+         color: white;
+         font-weight: 400;      
+         text-align: left;    
+         width: 100%;
+         background-color: #303030;
+     }
+
+    .FAQ .box .FAQ-span .FAQ-button .FAQ-icon {
+        color: white;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+
+
+    }
+
+    .FAQ h1 {
+        font-size: 25px;
+        color: white;
+        padding: 50px 0 30px 0;
+    }
+
+    .FAQ p {
+        color: white;
+        padding: 50px 30px 10px 30px;
+    }
+
+    .FAQ .email {
+        margin: 0 0 50px 0;
+    }
+
+    /* Email button */
+
+    .email {
+        margin: auto;
+        background-color: aquamarine;
+    }
+
+    .email input {
+        padding: 15px 50px 15px 10px;
+
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 75%;
+        background: #f1f1f1;
+    }
+
+
+
+    .email button {
+        float: left;
+        width: 25%;
+        padding: 19px 0;
+        background: red;
+        color: white;
+        font-size: 12px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+
+
+
+    /*  Footer  */
+
+    footer {
+
+        background-color: black;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    footer .footer-content {
+
+
+        font-size: 14px;
+        padding: 20px 0;
+        color: #737373;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+
+    }
+
+    footer .footer-content .footer-links {
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    footer .footer-content .footer-links a {
+        color: #737373;
+
+    }
+
+
+    footer .footer-content p:nth-child(3) {
+        height: 40px;
+        width: 120px;
+        border: 1px solid #737373;
+        color: #737373;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .footer-content p:nth-child(3) span {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    footer .footer-content p:nth-child(4) {
+        padding: 20px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
